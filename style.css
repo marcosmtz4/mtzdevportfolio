@@ -1,0 +1,270 @@
+/* Global */
+*{
+    font-family: 'Tilt Warp', cursive;
+    font-size: 14px;
+}
+body{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+.flex{
+    display: flex;
+}
+.center{
+    justify-content: center;
+}
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 100%;
+}
+/* Header */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav a:visited{
+    text-decoration: none;
+    color: white;
+}
+.nav p{
+    font-family: 'Tilt Warp', cursive;
+    font-size: 30px;
+}
+.nav li{
+    list-style: none;
+    padding-left: 0.2rem;
+}
+
+/* Main Content */
+
+.maincontainer{
+    display: flex;
+    background-image: url("img/Bg\ main2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 180%;
+    width: 100%;
+    text-align: center;
+}
+.titulo h1{
+    padding-top: 1rem;
+    font-size: 64px;
+}
+.titulo h2{
+    font-size: 32px;
+}
+.maincontent{
+    width: 100%;
+    height: 45rem;
+}
+
+/* trabajos */
+
+.lenguajes{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.lenguajes img{
+    width: 11rem;
+    height: auto;
+    padding: 6rem 10rem 6rem 11rem;
+}
+.herramientascotainer{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.herramientascotainer img{
+    width: 11rem;
+    height: auto;
+    padding: 6rem 10rem 6rem 10rem;
+}
+.titulo{
+    text-align: center; font-size: 24px;
+}
+.proyectos{
+    padding: 0px 0px 2rem 0px;
+}
+.proyectoscontainer{
+    width: 100%;
+    display: flex;
+}
+.proyecto img{
+    padding: 1px;
+    width: 26rem;
+}
+.proyecto{
+    width: 100%;
+    text-align: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.names{
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+.form input{
+    width: 20rem;
+    height: 2rem;
+}
+.mail{
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+.form button{
+    margin-top: 1rem;
+}
+
+/* Footer */
+
+.fsvg{
+    justify-content: center;
+}
+.fsvg img{
+    width: 2.5rem;
+    margin-right: 2rem;
+}
+
+/* Responsive */
+@media only screen and (max-width: 600px) {
+    *{
+        font-family: 'Tilt Warp', cursive;
+        font-size: 14px;
+    }
+    body{
+        background-color: black;
+        color: white;
+        text-decoration: none;
+    }
+    .flex{
+        display: flex;
+    }
+    .center{
+        justify-content: center;
+    }
+    .container{
+        padding-left: 1rem;
+        padding-right: 1rem;
+        max-width: 90%;
+    }
+    /* Header */
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 90%;
+    }
+    .nav a:visited{
+        text-decoration: none;
+        color: white;
+    }
+    .nav p{
+        font-family: 'Tilt Warp', cursive;
+        font-size: 15px;
+    }
+    .nav li{
+        list-style: none;
+        padding-left: 0.2rem;
+    }
+
+    /* Main Content */
+
+    .maincontainer{
+        display: flex;
+        background-image: url("img/Bg\ main2.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 100%;
+        text-align: center;
+    }
+    .titulo h1{
+        padding-top: 1rem;
+        font-size: 32px;
+    }
+    .titulo h2{
+        font-size: 16px;
+    }
+    .maincontent{
+        width: 100%;
+        height: 40rem;
+    }
+    /* trabajos */
+
+    .lenguajes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+    }
+    .lenguajes img{
+        width: 11rem;
+        height: auto;
+        padding: 6rem 10rem 6rem 11rem;
+    }
+    .herramientascotainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+    }
+    .herramientascotainer img{
+        width: 11rem;
+        height: auto;
+        padding: 6rem 10rem 6rem 10rem;
+    }
+    .titulo{
+        text-align: center; font-size: 24px;
+    }
+    .proyectos{
+        padding: 0px 0px 2rem 0px;
+    }
+    .proyectoscontainer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .proyecto img{
+        padding: 1px;
+        width: 26rem;
+    }
+    .proyecto{
+        width: 100%;
+        text-align: center;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .names{
+        justify-content: center;
+        padding-bottom: 1rem;
+    }
+    .form input{
+        width: 20rem;
+        height: 2rem;
+    }
+    .mail{
+        justify-content: center;
+        padding-bottom: 1rem;
+    }
+    .form button{
+        margin-top: 1rem;
+    }
+
+    /* Footer */
+
+    .fsvg{
+        justify-content: center;
+    }
+    .fsvg img{
+        width: 2.5rem;
+        margin-right: 2rem;
+    }
+}

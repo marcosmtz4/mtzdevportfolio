@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Dev MM</title>
+</head>
+<body>
+    <nav class="nav container">
+        <div>
+            <p>Marcos Martinez</p>
+        </div>
+        <div>
+            <p id="reloj"></p>
+        </div>
+        <ul class="flex">
+            <a href="#"><li>Inicio</li></a>
+            <a href="#Trabajos"><li>Trabajos</li></a>
+            <a href="#Contacto"><li>Contacto</li></a>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="maincontainer">
+            <div class="maincontent container">
+                <section>
+                    <div class="titulo">
+                        <h1>Marcos Martinez</h1>
+                        <h2>Desarrollador Web en Formacion</h2>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, similique. Mollitia commodi eligendi tempore, ad quibusdam id fugiat aliquam sequi voluptates libero possimus voluptatem veniam? Recusandae, vel doloribus. Minima, possimus! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto placeat, cupiditate rem ullam sint, exercitationem nemo atque blanditiis pariatur maiores inventore, quisquam nostrum ab illum praesentium officiis! Fugit, necessitatibus ipsa. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium, nisi! Fuga distinctio maiores architecto quisquam veniam labore non nesciunt eum aspernatur consequatur. Dolores, ipsum hic laborum non iusto id? Voluptas! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem sed ullam blanditiis suscipit facilis adipisci debitis, quos modi autem harum accusamus hic in repudiandae illum voluptate nostrum porro? Reprehenderit, beatae.</p>
+                </section>
+            </div>
+        </div>
+
+        
+        <section class="proyectos ">
+            <div class="titulo"><h2>Lenguajes Conocidos</h2></div>
+            <div class="lenguajes">
+                <img data-aos="fade-up-right" data-aos-duration="1000" src="img/html.png" alt="">
+                <img data-aos="fade-up" data-aos-duration="1000" src="img/css.png" alt="">
+                <img data-aos="fade-up-left" data-aos-duration="1000" src="img/javascript.png" alt="">
+            </div>
+
+            <h2 class="titulo">Herramientas Manejadas</h2>
+            <div class="herramientas">
+                <div class="herramientascotainer">
+                    <img data-aos="fade-up-right" data-aos-duration="1000" src="img/gitdesktop.svg" alt="">
+                    <img data-aos="fade-up" data-aos-duration="1000" src="img/Tailwind.svg" alt="">
+                    <img data-aos="fade-up-left" data-aos-duration="1000" src="img/cmder.png" alt="" class="cmderimg">
+                </div>
+            </div>
+
+            <div class="proyectos" id="Trabajos">
+                <h2 class="titulo">Proyectos realizados por mi</h2>
+                    <div class="proyectoscontainer">
+                        <div class="proyecto">
+                            <a href="https://marcosmtz4.github.io/Youtube-Clone/"><img src="img/ytgif.gif" alt=""></a>
+                            <p>Clon de Youtube</p>
+                        </div>
+                    
+                        <div class="proyecto">
+                            <a href="https://marcosmtz4.github.io/Netflix-clone-tailwind/"><img src="img/netflixgif.gif" alt=""></a>
+                            <p>Clon de Netflix</p>
+                        </div>
+                    
+                        <div class="proyecto">
+                            <a href="https://marcosmtz4.github.io/Instagram-Clone-Tailwind/"><img src="img/iggif.gif" alt=""></a>
+                            <p>Clon de Instagram</p>
+                        </div>
+                    </div>
+            </div>
+        </section>
+
+        <form class="form" id="form">
+            <h1 id="Contacto">Contacto</h1>
+            <div class="names flex center">
+                <input type="text" placeholder="Nombre" required>
+            </div>
+            <div class="mail flex center">
+                <input type="email" placeholder="Correo" required>
+            </div>
+        </form>
+        <div class="form">
+            <textarea rows="5" cols="40" name="message" form="form" placeholder="Mensaje" required></textarea>
+            <button class="boton flex center" form="form" id="enviado" onclick="cambiarcolor()">Enviar</button>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="redes">
+            <ul class="flex center fsvg">
+                <a href="https://github.com/marcosmtz4" target="_blank"><img src="img/github.png" alt=""></a>
+                <a href=""><img src="img/instagram.png" alt=""></a>
+                <a href="https://twitter.com/Mamrdev" target="_blank"><img src="img/twitter.png" alt=""></a>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="app.js"></script>
+</body>
+</html>
